@@ -153,7 +153,7 @@ while True:
 			server.ehlo()
 			server.starttls()
 			server.ehlo()
-			server.login( "swarnimdrive@gmail.com","rogerroger")
+			server.login( Email@gmail.com","EnterYourOwnPass")
 			textMsg = "Dear " + "Administrator" +",\n\n"+ "We have detected violation of social distancing norms."
 			SUBJECT = "Warning regarding COVID-19"
 			message = 'Subject: {}\n\n{}'.format(SUBJECT, textMsg)
